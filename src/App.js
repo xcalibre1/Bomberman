@@ -64,7 +64,7 @@ class App extends React.Component {
     this.setState({ gridLayout: copy });
   }
   playAgain=()=>{
-    this.setState(this.base)
+    window.location.reload(true);
   }
   render() {
     return (
